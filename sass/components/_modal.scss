@@ -16,9 +16,11 @@
 }
 .modal {
   position: relative;
+  position: absolute;
+  top: 93px;
+  max-width: 450px;
   display: inline-flex;
   flex-direction: column;
-  width: 528px;
   padding: 40px;
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -83,6 +85,8 @@
 .form-icon {
   display: inline-block;
   position: absolute;
+  width: 18px;
+  height: 18px;
   top: 50%;
   left: 16px;
   transform: translateY(-50%);
@@ -174,4 +178,24 @@
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+}
+@media screen and (max-width: 767px) {
+  .modal-input {
+    max-width: 370px;
+  }
+  .modal-textarea {
+    max-width: 370px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .modal {
+    top: 213px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .modal {
+    top: 221px;
+    width: 528px;
+    height: 581px;
+  }
 }

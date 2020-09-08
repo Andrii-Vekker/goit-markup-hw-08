@@ -1190,7 +1190,7 @@ a {
   position: relative;
   position: absolute;
   top: 93px;
-  max-width: 450px;
+  width: 450px;
   display: inline-flex;
   flex-direction: column;
   padding: 40px;

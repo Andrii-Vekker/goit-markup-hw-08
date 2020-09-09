@@ -84,9 +84,6 @@
   }
 }
 @media screen and (min-width: 768px) {
-  .join-footer {
-    margin-right: 89px;
-  }
   .flex-container {
     display: block;
   }
@@ -114,5 +111,8 @@
     margin-right: 94px;
     padding-top: 72px;
     padding-bottom: 100px;
+  }
+  .join-footer {
+    margin-right: 89px;
   }
 }

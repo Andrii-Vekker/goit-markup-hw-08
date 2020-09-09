@@ -70,6 +70,9 @@
     display: block;
     margin: 0 auto;
   }
+  .our-team-list-item:not(:last-child) {
+    margin-bottom: 30px;
+  }
   .main-head-style {
     @include font(900, 28px, 1.78, 0.03em);
     margin-top: 60px;

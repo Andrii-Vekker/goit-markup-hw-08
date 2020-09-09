@@ -19,6 +19,8 @@
   position: relative;
   position: absolute;
   top: 93px;
+  left: 50%;
+  transform: translateX(-50%);
   max-width: 450px;
   display: inline-flex;
   flex-direction: column;

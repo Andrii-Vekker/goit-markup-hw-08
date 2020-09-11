@@ -30,14 +30,13 @@
 .list-nav-item .current {
   color: $accent-color;
   position: relative;
-  display: block;
 }
 .current::after {
   content: "";
   position: absolute;
   display: block;
   left: 0;
-  bottom: -32px;
+  bottom: -33px;
   width: 100%;
   height: 4px;
   border-radius: 2px;
@@ -133,6 +132,17 @@
   }
   .list-adress-item + .list-adress-item {
     margin-top: 16px;
+  }
+  .current::after {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 0;
+    bottom: -8px;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: $accent-color;
   }
 }
 @media screen and (min-width: 768px) {
